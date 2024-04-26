@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plain";
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#loader{
+     height: 100%;
+     width: 100%;
+     position: fixed;
+     z-index: 99;
+     background: #000;
+     color: white;
+     text-transform: uppercase;
+     padding: 25vh 10vw;
+     font-weight: 300;
+     
+}
+.line{
+     
+     /* background: red; */
+     font-size: 3.4vw;
+     line-height: 0.9;
+     font-weight: 100;
+     
+     }
+#main{
+     position: relative;
+     background: #000;
+}
+#page1{
+     height: 100vh;
+     width: 100%;
+     background:#151515;
+}
+.line1{
+     display: flex;
+     font-size: 3.4vw;
+     align-items: center;
+     
+}
+.line1 h3{
+     font-family: 'Silk Serif';
+     font-size: 3vw;
+     font-weight: 300;
+}
+.line1 #timer{
+     font-family: 'Silk Serif';
+     width: 4.4vw;
+    
+}
